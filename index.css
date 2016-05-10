@@ -1,0 +1,151 @@
+html, body, div, span, applet, 
+object, iframe, h1, h2, h3, h4, 
+h5, h6, p, blockquote, pre, a, abbr, 
+acronym, address, big, cite, code, del, 
+dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, ul, li, ol, dl, dt, dd, 
+fieldset, form, label, legend, table, caption, 
+tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+nav {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+#kjg {
+  display: inline-block;
+  float: left;
+  position: relative;
+  z-index: 3;
+  line-height: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  font-family: 'Poiret One', cursive;
+  color: #c2b206;
+}
+
+#nav-primary-wrap {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  background-color: #056a75;
+  height: 60px;
+}
+
+#primary-wrap {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+}
+
+#primary-wrap li {
+  display: inline-block;
+  list-style: none;
+  line-height: 60px;
+  position: relative;
+}
+
+#primary-wrap li a {
+  display: block;
+  padding: 0 30px;
+  text-decoration: none;
+  color: white;
+}
+
+#primary-wrap li a:hover {
+  background-color: #04545d;
+}
+
+#primary-content {
+  padding-top:;
+  width: 100%;
+}
+
+#header {
+  text-align: center;
+  position: absolute;
+  width: 330px;
+  margin-left: -165px;
+  left: 50%;
+  margin-top: -30px;
+
+}
+
+.portfolioText{
+    color: white;
+    background-color:#04545d;
+    position: relative;
+    bottom: 40px;
+    left: 33px;
+    width: 250px;
+    }
+
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 55%;
+      margin: auto;
+  }
+
+a.right.carousel-control, a.left.carousel-control {
+  background-color: #eeeeee;
+  background-image: none;
+}
+
+.right.carousel-control a:hover, .left.carousel-control a:hover {
+  background-color: #eeeeee;
+}
+
+.glyphicon a {
+  color: #c8c8c8;
+}
+
+
+.carousel-caption a {
+  color: white;
+}
+
+
+.carousel-caption a:hover {
+  color: #c8c8c8;
+  text-decoration: none; 
+}
+
+#mycarousel {
+  height: 600px;
+}
+
+.footer {
+  background-color: #c8c8c8;
+  padding: 5px;
+  padding-top: 10px;
+
+}
+
+
+
+
+@media (max-width: 600px) {
+  #primary-wrap {
+    float: right;
+  }
+}
